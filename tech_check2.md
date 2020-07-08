@@ -8,15 +8,15 @@
   **Parameters:** A single word.<br/>
   **Returns:** A variable flag to indicate if the word is present or not.<br/>
 
-**Method :** tech_main(l1):
-  **Parameters:** The question entered by the user. 
-  **Returns:** Spell corrected technical words.
+**Method :** tech_main(l1):<br/>
+  **Parameters:** The question entered by the user. <br/>
+  **Returns:** Spell corrected technical words.<br/>
 
-**Method :**spell_correct(tech_question):
-  **Parameters:** The question entered by the user.
-  **Return:**Spell corrected query. 
+**Method :** spell_correct(tech_question):<br/>
+  **Parameters:** The question entered by the user.<br/>
+  **Return:**Spell corrected query. <br/>
 
- **Method :** best_match(i):
-  **Parameters:** i refers to the first i characters.
-  **Return:** Returns a pair (match_cost, match_length).
+ **Method :** best_match(i):<br/>
+  **Parameters:** i refers to the first i characters.<br/>
+  **Return:** Returns a pair (match_cost, match_length).<br/>
      
