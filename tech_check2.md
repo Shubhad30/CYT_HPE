@@ -4,26 +4,26 @@
   ### Parameters:
   The question entered by the user.
      
-   ### Return:
-   Returns the valid space seperated string.
+   ### Returns:
+   Valid space seperated string.
   
 ### Method 2: fn(st):
   ### Parameters:
   A single word.
-  ### Return: 
-  Returns a variable flag to indicate if the word is present or not.
+  ### Returns: 
+  A variable flag to indicate if the word is present or not.
 
 ### Method 3: tech_main(l1):
   ### Parameters:
   The question entered by the user. 
-  ### Return:
-  Returns the spell corrected technical words.
+  ### Returns:
+  Spell corrected technical words.
 
 ### Method 4:spell_correct(tech_question):
   ### Parameters:
   The question entered by the user.
   ### Return:
-  Returns the spell corrected query. 
+  Spell corrected query. 
 
  ### Method 5 :best_match(i):
   ### Parameters: 
