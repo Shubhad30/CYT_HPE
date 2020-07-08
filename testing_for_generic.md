@@ -10,7 +10,7 @@
  
 **Method 3:** fn(st):<br/>
  **Parameters:**  A single word.<br/>
-  **Returns:** A variable flag to indicate if the word is present or not.<br/>
+  **Returns:** A variable flag to indicate if the word is present in the dictionary or not.<br/>
 
 **Method 4:** main(l1):<br/>
   **Parameters:** The question entered by the user.<br/>
