@@ -6,7 +6,7 @@
 
 **Method 2:** greeting(sentence):<br/>
   **Parameters:** The question entered by the user.<br/>
-  **Returns:** Arandom response from the list of GREETING_RESPONSES list .<br/>
+  **Returns:** A random response from the list of GREETING_RESPONSES list .<br/>
 
 **Method 3:** genericResponse(user_response):<br/>
   **Parameters:** The question entered by the user.<br/>
