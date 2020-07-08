@@ -1,21 +1,17 @@
-It is used to check a generic question for spelling errors. 
+### It is used to check a generic question for spelling errors. 
 
-Method 1: infer_spaces(s):
-  Arguments:The question entered by the user.
-  Description:Uses dynamic programming to infer the location of spaces in a string
-              without spaces.
-  Method 1.1: best_match(i):
-    Argument: i refers to the first i characters.
-    Description:Find the best match for the i first characters, assuming cost has been built for the i-1 first characters.
-    Return:Returns a pair (match_cost, match_length).
-  Return: Returns the valid space seperated string.
+**Method 1:** infer_spaces(s):<br/>
+  **Parameters:** The question entered by the user.<br/>
+   **Returns:** Valid space seperated string.<br/>
+   
+**Method 2:** best_match(i):<br/>
+    **Parameters:** i refers to the first i characters.<br/>
+    **Returns:** Returns a pair (match_cost, match_length).<br/>
+ 
+**Method 3:** fn(st):<br/>
+ **Parameters:**  A single word.<br/>
+  **Returns:** A variable flag to indicate if the word is present or not.<br/>
 
-Method 2: fn(st):
-  Arguments:   A single word.
-  Description: Check if the word in st is present in the  dictionary .
-  Return: Returns a variable flag to indicate if the word is present or not.
-
-Method 3: main(l1):
-  Arguments:The question entered by the user.
-  Description: Used to correct the mispelt  words. 
-  Return: Returns the spell corrected technical words.
+**Method 4:** main(l1):<br/>
+  **Parameters:** The question entered by the user.<br/>
+  **Returns:** Spell corrected technical words.<br/>
