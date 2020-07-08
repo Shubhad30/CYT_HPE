@@ -14,9 +14,9 @@
 
 **Method :** spell_correct(tech_question):<br/>
   **Parameters:** The question entered by the user.<br/>
-  **Return:**Spell corrected query. <br/>
+  **Returns:** Spell corrected query. <br/>
 
  **Method :** best_match(i):<br/>
   **Parameters:** i refers to the first i characters.<br/>
-  **Return:** Returns a pair (match_cost, match_length).<br/>
+  **Returns:** Returns a pair (match_cost, match_length).<br/>
      
